@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 71%/1.5 Verdana, Sans-Serif;
+  background: #eee;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #aaa;;
+}
+
+/* .dot:hover {
+  background-color: #aaa;
+} */
+
+.filled {
+  height: 25px;
+  width: 25px;
+  background-color: #aaa;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.keyboard > div {
+  float: left;
+  margin: 5px 5px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  opacity: 1.0;
+} 
+
+.keyboard .kb-cell:hover {
+  opacity: 0.6;
+}
+
+.clearl {
+  clear: left;
+}
+
+.lastitem {
+  margin-right: 0;
+}
+
+/* .keyboard li {
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #f9f9f9;
+  border-radius: 50%;
+  border-radius: 5px;
+}
+
+.keyboard .tab,
+.keyboard .delete {
+  width: 70px;
+}
+
+.keyboard .capslock {
+  width: 80px;
+}
+
+.keyboard .return {
+  width: 90px;
+}
+
+.keyboard .left-shift {
+  width: 70px;
+}
+
+.keyboard .switch {
+  width: 90px;
+}
+
+.keyboard .rightright-shift {
+  width: 109px;
+}
+
+.lastitem {
+  margin-right: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.keyboard .space {
+  float: left;
+  width: 556px;
+}
+
+.keyboard .switch,
+.keyboard .space,
+.keyboard .return {
+  font-size: 16px;
+}
+
+.on {
+  display: none;
+}
+
+.keyboard li:hover {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  border-color: #e5e5e5;
+  cursor: pointer;
+} */
