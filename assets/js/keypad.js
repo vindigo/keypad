@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
-  var keyboard = $('.keyboard');
+  var keypad = $('.keypad');
   var dots = $('.dot').toArray();
   var classname = 'filled';
   var dotCount = 0;
 
-  keyboard.on('click', handleKeyboardClick);
+  keypad.on('click', handlekeypadClick);
 
-  function handleKeyboardClick(e) {
+  function handlekeypadClick(e) {
     if (e.target.classList.contains('number')) { addDot(dotCount); }
     if (e.target.classList.contains('btn-clear')) { clearAll(dots, classname); }
   }
